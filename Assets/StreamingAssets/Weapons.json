@@ -1,0 +1,22 @@
+[
+	{
+		"id": 0,
+		"title": "Standard Weapon",
+		"price": 150,
+		"turnSpeed": 10,
+		"attackRange": 10,
+		"attackPower": 100,
+		"attackRate": 1,
+		"slug": "weapon1"
+	}, 
+	{
+		"id": 1,
+		"title": "Electric Weapon",
+		"price": 300,
+		"turnSpeed": 15,
+		"attackRange": 15,
+		"attackPower": 150,
+		"attackRate": 1.5,
+		"slug": "weapon1"
+	}
+]

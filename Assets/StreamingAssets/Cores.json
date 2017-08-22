@@ -1,0 +1,20 @@
+[
+	{
+		"id": 0,
+		"title": "Standard Core",
+		"price": 350,
+		"attackRange": 1,
+		"attackPower": 1.5,
+		"attackRate": 1.5,
+		"slug": "core1"
+	}, 
+	{
+		"id": 1,
+		"title": "Electric Core",
+		"price": 650,
+		"attackRange": 2,
+		"attackPower": 2,
+		"attackRate": 2,
+		"slug": "core1"
+	}
+]

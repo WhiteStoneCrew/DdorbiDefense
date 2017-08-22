@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DdorbiDefense-Kangsungmin1.0", "DdorbiDefense-Kangsungmin1.0.csproj", "{F983C21B-E721-6D46-AC7E-64C99F08922A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DdorbiDefense-Kangsungmin1.0.Plugins", "DdorbiDefense-Kangsungmin1.0.Plugins.csproj", "{DE016AA1-72E1-959E-6491-D33F4A04E58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DdorbiDefense-Kangsungmin1.0.Editor.Plugins", "DdorbiDefense-Kangsungmin1.0.Editor.Plugins.csproj", "{7E39C9A8-C5DE-0075-88D0-5A87DB22D340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DdorbiDefense-Kangsungmin1.0.Editor", "DdorbiDefense-Kangsungmin1.0.Editor.csproj", "{0F1339A0-0C20-2C14-51C5-2652428FD352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F983C21B-E721-6D46-AC7E-64C99F08922A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F983C21B-E721-6D46-AC7E-64C99F08922A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F983C21B-E721-6D46-AC7E-64C99F08922A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F983C21B-E721-6D46-AC7E-64C99F08922A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE016AA1-72E1-959E-6491-D33F4A04E58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE016AA1-72E1-959E-6491-D33F4A04E58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE016AA1-72E1-959E-6491-D33F4A04E58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE016AA1-72E1-959E-6491-D33F4A04E58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E39C9A8-C5DE-0075-88D0-5A87DB22D340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E39C9A8-C5DE-0075-88D0-5A87DB22D340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E39C9A8-C5DE-0075-88D0-5A87DB22D340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E39C9A8-C5DE-0075-88D0-5A87DB22D340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1339A0-0C20-2C14-51C5-2652428FD352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1339A0-0C20-2C14-51C5-2652428FD352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1339A0-0C20-2C14-51C5-2652428FD352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1339A0-0C20-2C14-51C5-2652428FD352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

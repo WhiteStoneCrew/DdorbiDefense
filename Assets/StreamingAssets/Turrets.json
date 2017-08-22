@@ -1,0 +1,9 @@
+[
+	{
+		"id": 0,
+		"title": "Standard Turret",
+		"price": 70,
+		"finalAttackPower": 1.1,
+		"slug": "StandardTurret"
+	}
+]
