@@ -1,0 +1,22 @@
+[
+	{
+		"id": 0,
+		"title": "Standard",
+		"price": 150,
+		"turnSpeed": 15,
+		"attackRange": 10,
+		"attackPower": 100,
+		"attackRate": 1,
+		"slug": "StandardWeapon"
+	}, 
+	{
+		"id": 1,
+		"title": "Poison",
+		"price": 250,
+		"turnSpeed": 15,
+		"attackRange": 10,
+		"attackPower": 150,
+		"attackRate": 1.5,
+		"slug": "PoisonWeapon"
+	}
+]

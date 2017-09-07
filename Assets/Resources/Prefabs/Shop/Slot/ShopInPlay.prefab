@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1907476174275874}
+  m_IsPrefabParent: 1
+--- !u!1 &1907476174275874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4913078239709754}
+  - component: {fileID: 114520387887222964}
+  - component: {fileID: 114276179070100940}
+  - component: {fileID: 114025621886057782}
+  - component: {fileID: 114009496474205558}
+  - component: {fileID: 114956151848718972}
+  - component: {fileID: 114183945535436308}
+  - component: {fileID: 114908402084780020}
+  m_Layer: 0
+  m_Name: ShopInPlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4913078239709754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6533048, y: 0.14016438, z: -0.03379059}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114009496474205558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87a7fb8e9e0d0b4fb160f764ca45cd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretPanel: {fileID: 0}
+  slotPanel: {fileID: 0}
+  turretDatabase: {fileID: 114520387887222964}
+  turretSlot: {fileID: 1358258209850672, guid: a087585da13475a4aabcde16f67d7653, type: 2}
+  itemImage: {fileID: 1122177643593874, guid: 39b7cffc7f9a1d541be6cc1380c3837a, type: 2}
+  itemTitle: {fileID: 1509519399471304, guid: 7f11978011f068b4992e849f4abc7519, type: 2}
+  itemPrice: {fileID: 1545303684172022, guid: b64383fb0272f2e4d9ee080126199a74, type: 2}
+  slots:
+  - {fileID: 0}
+--- !u!114 &114025621886057782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d373fbf9a7e73340897e459d5f4de75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114183945535436308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86beffb34f1d2c41a34591bcd844e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corePanel: {fileID: 0}
+  slotPanel: {fileID: 0}
+  coreDatabase: {fileID: 114025621886057782}
+  coreSlot: {fileID: 1358258209850672, guid: a087585da13475a4aabcde16f67d7653, type: 2}
+  itemImage: {fileID: 1122177643593874, guid: eb1a93f7cd637a74185b6de2101617f5, type: 2}
+  itemTitle: {fileID: 1509519399471304, guid: 7f11978011f068b4992e849f4abc7519, type: 2}
+  itemPrice: {fileID: 1545303684172022, guid: b64383fb0272f2e4d9ee080126199a74, type: 2}
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114276179070100940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17479683a793d4eb2c94a33dc5bcdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114520387887222964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449e02c560c032c40b3b7d156a7dad09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114908402084780020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c0bde55c3685f4a87a92788bad5289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRunning: 0
+  pressedCombinationTurret: {fileID: 0}
+--- !u!114 &114956151848718972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907476174275874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddf52c9d5d74ff4b9d9dd5835d239aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponPanel: {fileID: 0}
+  slotPanel: {fileID: 0}
+  weaponDatabase: {fileID: 114276179070100940}
+  weaponSlot: {fileID: 1358258209850672, guid: a087585da13475a4aabcde16f67d7653, type: 2}
+  itemImage: {fileID: 1122177643593874, guid: 13ac13c0339abae43ba7a9db0f3c04f4, type: 2}
+  itemTitle: {fileID: 1509519399471304, guid: 7f11978011f068b4992e849f4abc7519, type: 2}
+  itemPrice: {fileID: 1545303684172022, guid: b64383fb0272f2e4d9ee080126199a74, type: 2}
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

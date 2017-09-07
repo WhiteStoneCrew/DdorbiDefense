@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a86beffb34f1d2c41a34591bcd844e94
+timeCreated: 1503322656
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - corePanel: {instanceID: 0}
+  - slotPanel: {instanceID: 0}
+  - coreDatabase: {instanceID: 0}
+  - coreSlot: {fileID: 1358258209850672, guid: a087585da13475a4aabcde16f67d7653, type: 2}
+  - itemImage: {fileID: 1122177643593874, guid: eb1a93f7cd637a74185b6de2101617f5,
+      type: 2}
+  - itemTitle: {fileID: 1509519399471304, guid: 7f11978011f068b4992e849f4abc7519,
+      type: 2}
+  - itemPrice: {fileID: 1545303684172022, guid: b64383fb0272f2e4d9ee080126199a74,
+      type: 2}
+  executionOrder: 300
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

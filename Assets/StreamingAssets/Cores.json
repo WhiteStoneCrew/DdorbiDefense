@@ -1,0 +1,20 @@
+[
+	{
+		"id": 0,
+		"title": "Power",
+		"price": 350,
+		"attackRange": 1,
+		"attackPower": 1.5,
+		"attackRate": 1,
+		"slug": "PowerCore"
+	}, 
+	{
+		"id": 1,
+		"title": "Speed",
+		"price": 450,
+		"attackRange": 1,
+		"attackPower": 1,
+		"attackRate": 2,
+		"slug": "SpeedCore"
+	}
+]
