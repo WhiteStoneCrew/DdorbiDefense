@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/StageMenu.unity
+    path: Assets/01.Scenes/StageMenu.unity
     guid: 922445b798241704d827d946784472a9
   - enabled: 1
-    path: Assets/InPlay.unity
+    path: Assets/01.Scenes/InPlay.unity
     guid: a71e0565e58f80b4e83e15679581b56f

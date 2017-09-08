@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F4EF3703-F078-16B4-3892-35F3C7107C05}</ProjectGuid>
+    <ProjectGuid>{D9962309-C7CC-5B4E-6088-43D892031F60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\02.Scripts\Database\CoreDatabase\CoreDatabase.cs" />
+     <Compile Include="Assets\02.Scripts\Database\CoreDatabase\CoreDTO.cs" />
+     <Compile Include="Assets\02.Scripts\Database\ItemDatabase.cs" />
+     <Compile Include="Assets\02.Scripts\Database\TurretDatabase\TurretDatabase.cs" />
+     <Compile Include="Assets\02.Scripts\Database\TurretDatabase\TurretDTO.cs" />
+     <Compile Include="Assets\02.Scripts\Database\WeaponDatabase\WeaponDatabase.cs" />
+     <Compile Include="Assets\02.Scripts\Database\WeaponDatabase\WeaponDTO.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\AndroidBot.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\Enemy.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\EnemySpawn.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\EnemyWaveCtrl.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\GoblinBot.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\InPlayManager.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\MouseTest.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\PupalBot.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\UI\InPlayDataManager.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\UI\UIEvent.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\Waypoint.cs" />
+     <Compile Include="Assets\02.Scripts\InPlay\WormBot.cs" />
+     <Compile Include="Assets\02.Scripts\Item\Bullet\Bullet.cs" />
+     <Compile Include="Assets\02.Scripts\Item\Bullet\Bullet1.cs" />
+     <Compile Include="Assets\02.Scripts\Item\CombinationTurret\CombinationManager.cs" />
+     <Compile Include="Assets\02.Scripts\Item\CombinationTurret\CombinationTurret.cs" />
+     <Compile Include="Assets\02.Scripts\Item\CombinationTurret\Core.cs" />
+     <Compile Include="Assets\02.Scripts\Item\CombinationTurret\Turret.cs" />
+     <Compile Include="Assets\02.Scripts\Item\CombinationTurret\Weapon.cs" />
+     <Compile Include="Assets\02.Scripts\Map\Node.cs" />
+     <Compile Include="Assets\02.Scripts\Menu\ButtonEvent.cs" />
+     <Compile Include="Assets\02.Scripts\Menu\SceneData.cs" />
+     <Compile Include="Assets\02.Scripts\UI\ShowItemSlot\CoreInPlay.cs" />
+     <Compile Include="Assets\02.Scripts\UI\ShowItemSlot\ItemInPlay.cs" />
+     <Compile Include="Assets\02.Scripts\UI\ShowItemSlot\TurretInPlay.cs" />
+     <Compile Include="Assets\02.Scripts\UI\ShowItemSlot\WeaponInPlay.cs" />
+     <Compile Include="Assets\02.Scripts\UI\UIManager\UIManager.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -169,39 +203,6 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-     <Compile Include="Assets\Scripts\Database\CoreDatabase\CoreDatabase.cs" />
-     <Compile Include="Assets\Scripts\Database\CoreDatabase\CoreDTO.cs" />
-     <Compile Include="Assets\Scripts\Database\ItemDatabase.cs" />
-     <Compile Include="Assets\Scripts\Database\TurretDatabase\TurretDatabase.cs" />
-     <Compile Include="Assets\Scripts\Database\TurretDatabase\TurretDTO.cs" />
-     <Compile Include="Assets\Scripts\Database\WeaponDatabase\WeaponDatabase.cs" />
-     <Compile Include="Assets\Scripts\Database\WeaponDatabase\WeaponDTO.cs" />
-     <Compile Include="Assets\Scripts\InPlay\AndroidBot.cs" />
-     <Compile Include="Assets\Scripts\InPlay\Enemy.cs" />
-     <Compile Include="Assets\Scripts\InPlay\EnemySpawn.cs" />
-     <Compile Include="Assets\Scripts\InPlay\EnemyWaveCtrl.cs" />
-     <Compile Include="Assets\Scripts\InPlay\GoblinBot.cs" />
-     <Compile Include="Assets\Scripts\InPlay\InPlayManager.cs" />
-     <Compile Include="Assets\Scripts\InPlay\MouseTest.cs" />
-     <Compile Include="Assets\Scripts\InPlay\PupalBot.cs" />
-     <Compile Include="Assets\Scripts\InPlay\UI\UIEvent.cs" />
-     <Compile Include="Assets\Scripts\InPlay\Waypoint.cs" />
-     <Compile Include="Assets\Scripts\InPlay\WormBot.cs" />
-     <Compile Include="Assets\Scripts\Item\Bullet\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Item\Bullet\Bullet1.cs" />
-     <Compile Include="Assets\Scripts\Item\CombinationTurret\CombinationManager.cs" />
-     <Compile Include="Assets\Scripts\Item\CombinationTurret\CombinationTurret.cs" />
-     <Compile Include="Assets\Scripts\Item\CombinationTurret\Core.cs" />
-     <Compile Include="Assets\Scripts\Item\CombinationTurret\Turret.cs" />
-     <Compile Include="Assets\Scripts\Item\CombinationTurret\Weapon.cs" />
-     <Compile Include="Assets\Scripts\Map\Node.cs" />
-     <Compile Include="Assets\Scripts\Menu\ButtonEvent.cs" />
-     <Compile Include="Assets\Scripts\Menu\SceneData.cs" />
-     <Compile Include="Assets\Scripts\UI\ShowItemSlot\CoreInPlay.cs" />
-     <Compile Include="Assets\Scripts\UI\ShowItemSlot\ItemInPlay.cs" />
-     <Compile Include="Assets\Scripts\UI\ShowItemSlot\TurretInPlay.cs" />
-     <Compile Include="Assets\Scripts\UI\ShowItemSlot\WeaponInPlay.cs" />
-     <Compile Include="Assets\Scripts\UI\UIManager\UIManager.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -354,12 +355,12 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Users/belo7/Documents/DdorbiDefense-Kangsungmin1.0/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>C:/Users/belo7/Documents/DdorbiDefense-master/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A2B743C1-39F7-BE8A-6685-A29D2FC49266}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{41BF9975-53D1-7E7E-DBF0-3DEA4533C2DE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

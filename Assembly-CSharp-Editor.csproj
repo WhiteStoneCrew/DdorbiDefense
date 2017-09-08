@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0805B44C-AE1E-2941-88FE-D428E1FC9A1B}</ProjectGuid>
+    <ProjectGuid>{04B1F1AF-CE46-2293-6642-1E0E891D8BAB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -276,16 +276,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Users/belo7/Documents/DdorbiDefense-Kangsungmin1.0/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>C:/Users/belo7/Documents/DdorbiDefense-master/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A2B743C1-39F7-BE8A-6685-A29D2FC49266}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{41BF9975-53D1-7E7E-DBF0-3DEA4533C2DE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F4EF3703-F078-16B4-3892-35F3C7107C05}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{D9962309-C7CC-5B4E-6088-43D892031F60}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{8BA6FDF3-5726-5BA8-07DC-E1D48CA1B2E7}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{39B561A8-1DB4-63FA-A1C5-114BBBEA750D}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

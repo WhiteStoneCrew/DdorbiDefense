@@ -1,22 +1,22 @@
 [
 	{
 		"id": 0,
-		"title": "Standard Weapon",
+		"title": "Standard",
 		"price": 150,
-		"turnSpeed": 10,
+		"turnSpeed": 15,
 		"attackRange": 10,
 		"attackPower": 100,
 		"attackRate": 1,
-		"slug": "weapon1"
+		"slug": "StandardWeapon"
 	}, 
 	{
 		"id": 1,
-		"title": "Electric Weapon",
-		"price": 300,
+		"title": "Poison",
+		"price": 250,
 		"turnSpeed": 15,
-		"attackRange": 15,
+		"attackRange": 10,
 		"attackPower": 150,
 		"attackRate": 1.5,
-		"slug": "weapon1"
+		"slug": "PoisonWeapon"
 	}
 ]

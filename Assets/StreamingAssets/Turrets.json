@@ -1,7 +1,7 @@
 [
 	{
 		"id": 0,
-		"title": "Standard Turret",
+		"title": "Standard",
 		"price": 70,
 		"finalAttackPower": 1.1,
 		"slug": "StandardTurret"
